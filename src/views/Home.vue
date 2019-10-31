@@ -44,7 +44,7 @@ export default {
       require.ensure([], () => {
         //  自定義表格名稱
         const tHeader = ['自定義ID', '自定義標題', '自定義']
-        //  根據tableData的的Key值列出要匯出的，與上方定義名稱的順序為對應的
+        //  根據tableData定義的Key值過濾要匯出的，與上方定義名稱的順序為對應的
         const filterVal = ['news_id', 'title', 'sort_ex']
         //  list改為宣告的tableData陣列名稱
         const list = this.articleLists
